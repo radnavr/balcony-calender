@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+html,
+body,
+#root {
+  background-color: #f7f3ea;
+  margin: 0;
+  font-family: "Public Sans", sans-serif;
+  font-size: 62.5%;
+  height: 100%;
+}
+
+main {
+  align-items: center;
+  background-color: #f7f3ea;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 100%;
+}
+@media (min-width: 860px) {
+  main {
+    flex-direction: row;
+  }
+}
+
+p {
+  font-weight: 700;
+  margin: 0.3rem 0;
+  text-align: center;
+}
+
+.apartment-type-active {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.apartment-type-inactive {
+  font-size: 3.2rem;
+  font-weight: 400;
+}
+
+.bg-green {
+  background-color: #94c706;
+}
+
+.bg-red {
+  background-color: #e34239;
+}
+
+.card {
+  align-items: center;
+  background-color: #f7f3ea;
+  border: 3px solid black;
+  border-radius: 10px;
+  box-shadow: 6px 6px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.card--active {
+  height: 20rem;
+  width: 30rem;
+}
+
+.card--inactive {
+  height: 16rem;
+  width: 24rem;
+}
+
+.number-container {
+  align-items: center;
+  border: 3px solid black;
+  border-radius: 10px;
+  display: flex;
+  height: 6rem;
+  justify-content: center;
+}
+
+.number-container--active {
+  height: 6rem;
+  width: 6rem;
+}
+
+.number-container--inactive {
+  height: 4.8rem;
+  width: 4.8rem;
+}
+
+.stripe {
+  border-bottom: 3px solid black;
+  border-top: 3px solid black;
+  width: 100%;
+}
+
+.stripe--active {
+  font-size: 2rem;
+}
+
+.stripe--inactive {
+  font-size: 1.5rem;
+}
+
+.stripe--top--active {
+  margin-top: 20px;
+}
+
+.stripe--top--inactive {
+  margin-top: 15px;
+}
+
+.stripe--bottom--active {
+  margin-bottom: 20px;
+}
+
+.stripe--bottom--inactive {
+  margin-bottom: 15px;
+}
